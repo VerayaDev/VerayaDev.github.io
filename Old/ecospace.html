@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Veraya ECO Space</title>
+<link rel="shortcut icon" href="img/favi.ico" type="image/x-icon" />
+<style type="text/css">
+.container {
+    overflow: hidden;
+    background-color: #335;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu {
+  width: 8%;
+  margin: 0 auto;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+body {
+	background-image: url(img/background.png);
+}
+body,td,th {
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+}
+</style>
+</head>
+<body>
+<center>
+<tabke width="875" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<img src="img/bannersite.png">
+<div class="container">
+  <a href="index.html">Home</a>
+  <a href="news.html">News</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Projects</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="nexus.html">NEXUS discord bot</a>
+      <a href="kurumi.html">Kurumi-Bot</a>
+      <a href="ecospace.html">ECO Space</a>
+      <a href="veraya.html">Veraya page</a>
+    </div>
+  </div>
+  <a href="planned.html">Planned</a>
+  <a href="support.html">Support</a>
+  <a href="https://discord.gg/https://discord.gg/6GA5hW2" target="_blank">Discord</a>
+  </div>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<H1>ECO Space:</H1>
+<h6>[last update: 4/26/2017]</h6>
+<h2>What is ECO Space?</h2>
+<p>Imagine living on a planet where the ECO System is falling apart, and you having to travle into space to save your planet. That's ECO Space.</p>
+<h2>When will the first download-able version release?</h2>
+<p>Unkown, I also have school. I'll update the site as fast as i can see a play-able/download-able version in the near future.</p>
+<h2>Pictures:</h2>
+<p>Development just started, nothing to show. Come back another time!</p>
+<p>&nbsp;</p>
+<h1>Downloads:</h1>
+<p>No downloads</p>
+</body>
+</html>
